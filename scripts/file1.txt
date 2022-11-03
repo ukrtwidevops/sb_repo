@@ -1,0 +1,23 @@
+Solution #1
+def remove_char(s):
+    return s[1 : -1]
+
+
+Solution #2
+def no_space(x):
+    return x.replace(" ", "")
+    
+    
+Solution #3
+def expression_matter(a, b, c):
+    return max(a*b*c, a+b+c, a*(b+c), a + b*c, (a+b)*c)
+    
+    
+Solution #4
+def move(position, roll):
+    return position + 2*roll
+    
+
+Solution #5
+def century(year):
+    return (year + 99) // 100
